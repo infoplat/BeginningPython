@@ -4,7 +4,6 @@ Created on 2015年11月1日
 
 @author: 岳宁
 '''
-from macpath import join
 
 su = ['Su Yuening', 33]
 shan = ['Zhang Shanshan', 32]
@@ -47,7 +46,17 @@ print ','.join(list(permissions))
 
 x = ['1', 1, 1]
 print x
-x[0]=2
+x[0] = 2
 print x
-x[1]=permissions
+x[1] = permissions
 print x
+del x[1]
+print x
+
+numbers = [1, 5]
+numbers[1:1] = [2, 3, 4]
+print numbers
+numbers.append(6)
+print numbers
+
+
