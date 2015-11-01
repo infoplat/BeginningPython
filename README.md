@@ -1,4 +1,4 @@
-# BeginningPython
-Python基础教程练习
+# Python基础教程(第2版.修订版)
 
+##进度
 P40 10.高级排序
