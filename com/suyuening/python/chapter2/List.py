@@ -59,4 +59,34 @@ print numbers
 numbers.append(6)
 print numbers
 
+countlist = ['to', 'be', 'or', 'not', 'to', 'be']
+print countlist.count('to')
+print countlist.count('or')
+
+a = [1, 2, 3]
+b = [4, 5, 6]
+a.extend(b)
+print a
+a.insert(3, 'four')
+print a
+print a.pop()
+print a
+a.reverse()
+print a
+x = [4, 6, 2, 1, 7, 9]
+# y=x[:]
+# y.sort()
+y = sorted(x)
+print x
+print y
+
+z = x[:]
+mycmp = cmp(99, 100)
+print mycmp
+z.sort(reverse=True)
+print z
+
+
+
+
 
