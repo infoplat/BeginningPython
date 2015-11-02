@@ -76,17 +76,17 @@ print a
 x = [4, 6, 2, 1, 7, 9]
 # y=x[:]
 # y.sort()
-y = sorted(x)
-print x
-print y
+# y = sorted(x)
+# print x
+# print y
 
 z = x[:]
-mycmp = cmp(99, 100)
-print mycmp
-z.sort(reverse=True)
+
+cmp(1, 1)
+print z
+z.sort(cmp)
 print z
 
-
-
-
-
+abc = ['aardvark', 'abalone', 'acme', 'add', 'aerate']
+abc.sort(cmp=cmp,key=len)
+print abc
