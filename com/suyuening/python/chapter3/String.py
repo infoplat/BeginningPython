@@ -23,3 +23,13 @@ print s.substitute(x='slum')
 
 s = Template("Make $$ selling $x!")
 print s.substitute(x='slum')
+
+s = Template('A $thing must never $action.')
+d={}
+d['thing']='gentleman'
+d['action']='show his socks'
+print s.substitute(d)
+
+
+
+
