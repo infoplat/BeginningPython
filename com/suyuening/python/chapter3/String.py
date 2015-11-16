@@ -30,6 +30,19 @@ d['thing']='gentleman'
 d['action']='show his socks'
 print s.substitute(d)
 
+print '%-10.2f' % pi
 
+print 'With a moo-moo here, and a moo-moo there'.find('moo')
 
+dirs='','usr','bin','env'
+print dirs
+print '/'.join(dirs)
+print 'This is a test'.replace('is', 'eez')
 
+from string import maketrans
+table=maketrans('cs', 'kz')
+print table
+
+print len(table)
+print 'This is an incredible test'.translate(table)
+print 'This is an incredible test'.translate(table, " ")
